@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333; 
+    background-color: #fffaf0;
+    text-align: center; 
+}
+
+header {
+    background-color: #FF8C42; 
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 35px; 
+    color: #fff; 
+}
+
+nav {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff; 
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex; 
+    align-items: center;
+    gap: 30px;
+    text-align: left;
+}
+
+.container div {
+    color: #333333; 
+}
+
+.perfil-img {
+    max-width: 250px;
+    border-radius: 50%;
+    flex-shrink: 0; 
+}
+
+.texto {
+    flex: 1; 
+    color: #333333; 
+    font-family: sans-serif; 
+    line-height: 1.6; 
+}
+
+#introducao h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px; 
+    color: #FF8C42; 
+    margin-bottom: 10px; 
+}
+
+.laranja-titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px; 
+    color: #FF8C42; 
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 20px 0;
+    background-color: #FF8C42;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#contato .container {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#email .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#email a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links img {
+    height: 30px;
+    width: auto;
+}
+
+.social-links li {
+    list-style: none;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#projetos .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: row; 
+    gap: 30px;
+    text-align: left;
+}
+
+.projetos .texto {
+    flex: 1;
+    color: #333;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.projetos img {
+    max-width: 700px; 
+    height: auto;
+    flex-shrink: 0;
+}
+
+
+
+
+
